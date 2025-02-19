@@ -1,6 +1,14 @@
-<?php
+<!DOCTYPE html>
+<ht lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culture</title>
+    
+    <?php
+include "inc/baniereView.php";
 include "inc/menuView.php"
-?>
+    ?>
 
 <div class="titre">
 <h1>Culture</h1>

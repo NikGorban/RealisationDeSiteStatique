@@ -6,7 +6,8 @@
     <title>Contacts</title>
 
     <?php
-        include "inc/menuView.php"
+include "inc/baniereView.php";
+include "inc/menuView.php"
     ?>
 </body>
 </html>

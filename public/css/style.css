@@ -8,9 +8,26 @@ body{
     text-align: center;
 }
 
+.banner{
+    position: relative;    
+}
 .banner img{
     width: 1280px;
     padding: auto;
+    border-radius: 10px;
+}
+
+.text-overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2rem;
+    font-family: Arial,Helvetica,sans-serif;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
     border-radius: 10px;
 }
 
