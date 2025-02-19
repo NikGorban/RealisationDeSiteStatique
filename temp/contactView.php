@@ -15,17 +15,27 @@
 
 <img src="img/contacts.jpg" alt="Les contacts">
 
-<div class="formulaire"></div>
+<div class="formFon">
     <h2>Formulaire de contact</h2>
-    <form action="." method="text">
-    <label for="#">Nom</label>
-    <input type="text">
-    <label for="#">Prénom</label>
-    <input type="text">
-    <label for="#">Email</label>
-    <input type="email">
-    <label for="#">Message</label>
-    <textarea name="message" id="message" cols="30" rows="10"></textarea>
-    <button type="submit">Envoyer</button>
-    </form>
+    <div class="formulaire">
+
+        <form action="." method="text">
+            <div>
+                <label for="#">Nom</label>
+                <input type="text"></div>
+            <div> 
+                <label for="#">Prénom</label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="#">Email</label>
+                <input type="email">
+            </div>        
+            <div>
+                <label for="#">Message</label>
+                <textarea name="message" id="message" ></textarea>            
+            </div>
+            <button type="submit">Envoyer</button>
+        </form>
+    </div>
 </div>

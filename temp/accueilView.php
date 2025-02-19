@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<ht lang="en">
+<>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil</title>
@@ -9,15 +9,12 @@
 include "inc/menuView.php"
     ?>
 
- <img src="img/armoiries.png" alt="armoiries" class="armoiries">
 
-</body>
-</html>
-
-    <div class="titre">
+   <div class="titre">
         <h1>Londres</h1>
     </div>
 <div class="text">
+ <img src="img/armoiries.png" alt="armoiries" class="armoiries">
     
     <ul>
     <li><p>Londres est la capitale et la plus grande ville d'Angleterre et du Royaume-Uni. La ville est située près de l'estuaire de la Tamise dans le sud-est de   l'Angleterre. Londinium a été fondée par les Romains il y a presque 2 000 ans. La Cité de Londres, le noyau historique de Londres avec une superficie de  seulement 1,12 miles carrés (2,9 km2) conserve des frontières qui suivent de près ses limites médiévales. Londres est gouvernée par le maire de Londres et   l'Assemblée de Londres.</p></li><br>
@@ -36,3 +33,5 @@ include "inc/menuView.php"
 <div class="liens">
     <a href="https://fr.wikipedia.org/wiki/Londres">En savoir plus</a>   
 </div>
+</body>
+</html>
