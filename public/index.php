@@ -7,7 +7,6 @@ if (isset($_GET['p'])){
         case 'accueil':
             include "../temp/accueilView.php";
             break;
-
         case 'galerie':
             include "../temp/galerieView.php";
             break;
