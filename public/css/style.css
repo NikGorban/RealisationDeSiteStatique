@@ -1,7 +1,7 @@
 body{
     display: block;
     width: 1280px;
-   
+    background-color: beige;
     margin: 0px auto;
     align-items: center;
     justify-content:center;
@@ -17,38 +17,41 @@ body{
 .armoiries{
     height: 250px;
     border-radius: 10px;
+    margin-bottom: 0px;
 }
 
 nav{
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
     margin-bottom: 15px;
     width: 1280px;
+    height: 50px;
     justify-content: center;
     align-items: center;
-    background-color: #333;
-    color: white;
+    background-color: #CCC;
     padding: 10px 0px 10px 0px;
-    border-radius: 10px;
-    
+    border-radius: 10px;    
 }
 
 nav a{   
-    
-    color: white;
+   
+    color: rgb(0, 0, 0);
     text-decoration: none;
     padding : 10px 5% 10px 5%;  
     transition: 0.25s;     
 }
 
 nav a:hover{
-    background-color: #555;
+    background-color: #A90331;
     border-radius: 10px;
+    color: white;
 }
 
 .text p{
     font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:  Arial,Helvetica,sans-serif;
     text-align: justify;
     margin: 0px 10px 0px 10px;
     
@@ -56,7 +59,7 @@ nav a:hover{
 
 .titre{
     font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:  Arial,Helvetica,sans-serif;
     text-align: center;
     margin-bottom: 0px;
     background-color: rgba(158, 143, 124, 0.507);
@@ -64,12 +67,57 @@ nav a:hover{
 }
 
 .titre h1{
-    margin-bottom:0px ;
+    font-style: italic;
+    color: white;
+    background-color: #A90331;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 0px;
+    margin-top: 15px;
 }
 
 .text{
     background-color:bisque;    
     border-radius: 0px 0px 10px 10px;
     margin-top: 0px;
+}
+
+.text li{ 
+    font-size: 20px;
+    font-family:  Arial,Helvetica,sans-serif;
+    text-align: justify;
+    margin: 0px 30px 0px 30px;
+
+}
+
+.liens{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    width: 1280px;
+    justify-content: center;
+    align-items: center;
+    background-color: #CCC;
+    color: rgb(0, 0, 0);   
+    border-radius: 10px;
+
+}
+
+.liens a{   
+    
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding : 10px 5% 10px 5%;  
+    transition: 0.25s; 
+    font-size: 1.5rem;    
+}
+
+.liens a:hover{
+    background-color: #A90331;
+    border-radius: 10px;
+    color: white;
 }
 
