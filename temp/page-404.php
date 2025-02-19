@@ -14,4 +14,4 @@ include "inc/menuView.php"
     </div>
 <div class="text">
  <img src="img/404.jpg" alt="err">
- <p>La page que vous cherchez n'existe pas.</p>
+ <h2>Page que vous cherchez n'existe pas.</h2>
