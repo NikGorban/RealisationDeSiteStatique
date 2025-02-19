@@ -11,6 +11,7 @@ body{
 .banner{
     position: relative;    
 }
+
 .banner img{
     width: 1280px;
     padding: auto;
@@ -69,8 +70,9 @@ nav a{
    
     color: rgb(0, 0, 0);
     text-decoration: none;
-    padding : 10px 5% 10px 5%;  
-    transition: 0.25s;     
+    padding : 10px 4% 10px 4%;  
+    transition: 0.25s;  
+       font-size: 1.5rem;
 }
 
 nav a:hover{
@@ -130,11 +132,14 @@ nav a:hover{
     justify-content: space-between;
     margin-bottom: 15px;
     width: 1280px;
+    position: sticky;
+    top: 0;
     justify-content: center;
     align-items: center;
     background-color: #CCC;
     color: rgb(0, 0, 0);   
     border-radius: 10px;
+
 }
 
 .liens a{   
@@ -143,7 +148,7 @@ nav a:hover{
     text-decoration: none;
     padding : 10px 5% 10px 5%;  
     transition: 0.25s; 
-    font-size: 1.5rem;    
+    font-size: 1.5m;    
 }
 
 .liens a:hover{
@@ -152,41 +157,61 @@ nav a:hover{
     color: white;
 }
 
-.formulaire{
-    display: inline-flex;
-    align-items: center;
-    margin-bottom: 15px;   
-    justify-content: center;
-    color: rgb(0, 0, 0);  
-}
+/*       Formulaire de contact       */
 
 .formFon{
-    background-color: #ccc;
-    border-radius: 10px;
-    width: 500px;      
-}
-
-
-.formulaire form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-}
-
-
-
-.col a{
-    display: flex;
-    justify-content: center;
-    margin: 0px 30px 15px 30px;
-    width: 150px;    
-    align-items: center;
+    padding: 15px 10px 15px 10px;
     background-color: #CCC;
-    color: rgb(0, 0, 0);   
+    width: 650px;
+    margin: 0px auto;
     border-radius: 10px;
 }
 
+.form-group{
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.form-group label{
+    display: block;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    width: 50px;
+}
+
+.form-group input{
+    position: relative;
+    width: 400px;
+    left: 100px;
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+}
+
+.form-group textarea{
+    position: relative;
+    width: 450px;
+    height: 100px;
+    left: 100px;
+    resize: none;
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+}
+
+button{
+    width: 100px;
+    padding: 10px;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    transition: 0.25s;
+}
+
+button:hover{
+    background-color: #A90331;
+    color: white;
+}
 
