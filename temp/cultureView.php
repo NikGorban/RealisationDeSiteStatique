@@ -81,3 +81,7 @@ include "inc/menuView.php"
     </p><br>
 </div>
 </div>
+
+<?php
+include "inc/up.php"
+?>

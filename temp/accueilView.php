@@ -34,5 +34,8 @@ include "inc/menuView.php"
 <div class="liens">
     <a href="https://fr.wikipedia.org/wiki/Londres">En savoir plus</a>   
 </div>
+<?php
+include "inc/up.php"
+?>
 </body>
 </html>

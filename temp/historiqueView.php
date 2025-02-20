@@ -60,3 +60,10 @@ include "inc/menuView.php"
     </p><br>
     <p>En tant que siège du gouvernement et principale agglomération du Royaume-Uni, la ville connaît de nombreux épisodes terroristes. L'IRA provisoire tente de mettre le gouvernement britannique sous pression au sujet des négociations en Irlande du Nord, interrompant fréquemment les activités de la ville avec des alertes à la bombe ou des attentats jusqu'au cessez-le-feu de 1997. Le 7 juillet 2005, une série d'attentats est perpétrée dans les transports en commun londoniens par des kamikazes islamistes, 24 heures seulement après que l'organisation des Jeux olympiques de 2012 est confiée à la ville. Le 22 mars 2017, un attentat revendiqué par l'État islamique est commis par Khalid Masood sur le pont de Westminster et dans l'enceinte du Parlement ; il fait 3 morts (4 si on compte le terroriste) et une cinquantaine de blessés63,64. La Police métropolitaine a précisé que Masood ne faisait pas partie d'une organisation terroriste et qu'il a agi seul65. Trois mois plus tard, une autre attaque terroriste touche le centre de la ville, faisant huit morts.
     </p><br>
+</div>
+</div>
+
+
+<?php
+include "inc/up.php"
+?>

@@ -51,3 +51,6 @@ include "inc/menuView.php"
 </div>
 
 
+<?php
+include "inc/up.php"
+?>
